@@ -25,7 +25,8 @@
 .header-section-row1-nav {
   /* flex: 1; */
 }
-.header-section-row1-logoDiv {
+.header-section-row1-logoDiv,
+.footer-logo-div {
   width: 6vw;
 }
 @media only screen and (max-width: 480px) {
@@ -33,7 +34,16 @@
     width: 8vw;
   }
 }
-.header-section-row1-logoDiv > img {
+@media only screen and (max-width: 991px) {
+  .header-section {
+    border-bottom: solid 1px #888;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+}
+.header-section-row1-logoDiv > img,
+.footer-logo-div > img {
   max-width: 100%;
 }
 .header-section-row1-nav-item-text,
@@ -185,11 +195,14 @@
   border-color: #f1b939;
 }
 .subscription-check-bone-div {
-  transform: rotate(-45deg);
   color: #f1b939;
 }
+.subscription-check-bone-div > i {
+  transform: rotate(-45deg);
+  font-size: 12px;
+}
 .subsctiption-list-div > div > p {
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 600;
   color: #3b2819;
 }
@@ -259,6 +272,7 @@
 .carousel-title > div > h2,
 .carousel-testimonial-title > div > h2 {
   color: #fff;
+  font-size: 26px;
 }
 #carousel-image > .owl-nav {
   position: absolute !important;
@@ -268,6 +282,11 @@
   display: flex;
   justify-content: space-between;
   left: -5%;
+}
+@media only screen and (max-width: 480px) {
+  #carousel-image > .owl-nav {
+    display: none;
+  }
 }
 #carousel-testimonial > .owl-nav {
   display: none !important;
@@ -320,4 +339,60 @@
 }
 #testimonial-owl > .owl-nav {
   display: none !important;
+}
+
+.news-letter-section {
+  background-color: #3b2819;
+}
+.news-letter-heading-div > h3 {
+  color: #d6394a;
+}
+.news-letter-para-div > p {
+  color: #fff;
+}
+.news-letter-enter-email-div {
+  width: 50%;
+}
+@media only screen and (max-width: 480px) {
+  .news-letter-enter-email-div {
+    width: 100%;
+  }
+}
+
+.news-letter-enter-email-div > div:nth-child(1) {
+  flex: 1;
+}
+.news-letter-enter-email-div > div > input {
+  flex: 1;
+}
+.news-letter-enter-email-div > div {
+  background-color: #d6394a;
+  width: 150px;
+}
+.news-letter-enter-email-div > div > button {
+  background-color: #d6394a;
+  color: #fff;
+  border: none;
+}
+.footer-row-1 {
+  background-color: #f1b939;
+}
+.footer-logo-div {
+  width: 100%;
+}
+.footer-logo-div > h2 {
+  color: #d6394a;
+}
+.socialLink {
+  background-color: #3b2819;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialLink > i {
+  color: #fff;
+  font-size: 20px;
 }

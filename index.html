@@ -199,7 +199,7 @@
     </section>
     <section class="select-pet-attribute-sction my-5">
       <div class="container d-flex flex-column align-items-center">
-        <div class="select-pet-attribute-sction-select-grooming-mainDiv d-flex">
+        <div class="select-pet-attribute-sction-select-grooming-mainDiv d-none d-md-flex">
           <div class="d-flex justify-content-center align-items-center">
             <p class="m-0 text-center">
               IN-STORE <br />
@@ -217,12 +217,12 @@
           <div
             class="select-pet-attribute-sction-select-partner-pet-heading-div py-4"
           >
-            <h2>WHO’S YOUR PARTNER IN CRIME?</h2>
+            <h2 class="text-center">WHO’S YOUR PARTNER IN CRIME?</h2>
           </div>
           <div
             class="select-pet-attribute-sction-select-partner-pet-main-div justify-content-center d-flex flex-wrap"
           >
-            <div class="mr-3"></div>
+            <div class="mr-md-3 mb-3"></div>
             <div></div>
           </div>
         </div>
@@ -230,7 +230,7 @@
           <div
             class="select-pet-attribute-sction-select-pet-size-heading-div py-4"
           >
-            <h2>WHAT’S THE SIZE OF YOUR PET?</h2>
+            <h2 class="text-center">WHAT’S THE SIZE OF YOUR PET?</h2>
           </div>
           <div
             class="select-pet-attribute-sction-select-pet-size-main-div justify-content-center align-items-end d-flex flex-wrap"
@@ -269,14 +269,14 @@
         class="container d-flex justify-content-center align-items-center flex-wrap"
       >
         <div class="col-12 col-md-5">
-          <div class="subscription-features-div f-flex flex-column py-4">
+          <div class="subscription-features-div mb-3 f-flex flex-column py-4">
             <div class="subscription-features-div-heading-div">
               <h2 class="text-center">FULL GROOMING PACKAGE</h2>
             </div>
             <div class="d-flex justify-content-around">
               <div class="subsctiption-list-div py-4">
                 <div class="d-flex mb-3">
-                  <div class="subscription-check-bone-div">
+                  <div class="subscription-check-bone-div d-flex justify-content-center align-items-center">
                     <i class="fas fa-bone"></i>
                   </div>
                   <p class="m-0">Haircut</p>
@@ -431,7 +431,7 @@
         </div>
       </div>
     </section>
-    <section class="about-our-services-section">
+    <section class="about-our-services-section d-none d-md-block">
       <div class="container d-flex justify-content-center">
         <div>
           <div class="d-flex align-items-center py-4">
@@ -569,6 +569,98 @@
         </div>
       </div>
     </section>
+    <section class="news-letter-section">
+      <div class="container py-5 d-flex flex-column align-items-center">
+        <div class="news-letter-heading-div">
+          <h3>SIGN UP FOR NEWSLETTER</h3>
+        </div>
+        <div class="news-letter-para-div py-4">
+          <p>
+            Join our newsletter to be the first to hear about new arrivals,
+            exclusive offers and get 10% off your first order with 25 afro
+            points
+          </p>
+        </div>
+        <div class="news-letter-enter-email-div d-flex">
+          <div class="d-flex">
+            <input class="py-3 px-3" placeholder="Enter E-mail Address">
+          </div>
+          <div class="d-flex align-items-center justify-content-center"><button>SUBSCRIBE</button></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-row-1 py-5">
+        <div class="container d-flex flex-wrap">
+          <div class="col-12 col-md-4">
+            <div class="d-flex flex-column">
+              <div class="footer-logo-div">
+                <img alt="Footer Logo" src="./assets/images/Logo.PNG" />
+                <h2>AFRO PETS</h2>
+              </div>
+            </div>
+            <div class="d-flex">
+              <h5>Address</h5>
+              <p>Shop No. 1 & 2, Mirdif Golden Gate,
+                PO Box 71707, Dubai</p>
+            </div>
+            <div class="d-flex">
+              <h5>Phone</h5>
+              <p>+971 4 288 6504</p>
+            </div>
+            <div class="d-flex">
+              <h5>Email</h5>
+              <p>: hello@afropets.com</p>
+            </div>
+            <div class="d-flex">
+              <div class="socialLink"><i class="fab fa-facebook-f"></i></div>
+              <div class="socialLink mx-3"><i class="fab fa-twitter"></i></div>
+              <div class="socialLink"><i class="fab fa-instagram"></i></div>
+            </div>
+          </div>
+          <div class="about-us-column d-none d-md-block col-2">
+            <h2>ABOUT US</h2>
+            <div>
+              <p class="m-0">About Us</p>
+              <p class="m-0">Careers</p>
+              <p class="m-0">Location</p>
+              <p class="m-0">FAQs</p>
+              <p class="m-0">Terms & Conditions</p>
+            </div>
+          </div>
+          <div class="about-us-column d-none d-md-block col-3">
+            <h2>OUR SERVICES</h2>
+            <div>
+              <p class="m-0">Grooming</p>
+              <p class="m-0">Mobile Grooming</p>
+            </div>
+          </div>
+          <div class="about-us-column d-none d-md-block col-3">
+            <h2>SHOP NOW</h2>
+            <div>
+              <p class="m-0">Dog</p>
+              <p class="m-0">Cat</p>
+              <p class="m-0">Fish</p>
+              <p class="m-0">Bird</p>
+              <p class="m-0">Reptile</p>
+              <p class="m-0">Small Animal</p>
+              <p class="m-0">Brands</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-row-2">
+        <div class="container py-2 d-flex align-items-center flex-wrap justify-content-between">
+          <div><p class="m-0">© Copyright 2019 by Afro pets. All Rights Reserved</p></div>
+          <div class="d-flex align-items-center">
+            <div class="px-2"><img alt="Apple Pay" src="./assets/images/ApplePay.PNG" /></div>
+            <div><img alt="Master" src="./assets/images/MasterCard.PNG" /></div>
+            <div class="px-2"><img alt="VISA" src="./assets/images/VISACard.PNG" /></div>
+            <div><img alt="PAYPAL" src="./assets/images/Paypal.PNG" /></div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <section class="d-block d-lg-none side-drawer" id="side-drawer">
       <div class="d-none side-drawer-div px-3 py-4" id="side-drawer-div">
         <div class="side-drawer-title-div d-none" id="side-drawer-title-div">
