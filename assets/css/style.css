@@ -174,3 +174,48 @@
 .select-pet-size-image-div-4 {
   height: 150px;
 }
+
+.subscription-features-div {
+  border: solid 2px #3b2819;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.subscription-features-div:hover {
+  border-color: #f1b939;
+}
+.subscription-check-bone-div {
+  transform: rotate(-45deg);
+  color: #f1b939;
+}
+.subsctiption-list-div > div > p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #3b2819;
+}
+.buy-subscription-button-div > div {
+  background-color: #f1b939;
+  color: #3b2819;
+}
+.buy-subscription-button-div > div > button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  font-weight: 700;
+  color: #3b2819;
+}
+.book-now-button-div {
+  background-color: #d6394a;
+  padding: 5px 10px;
+  border-radius: 25px;
+}
+.book-now-button-div > button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  color: #fff;
+}
+
+.terms-and-conditions-heading-div > h6 {
+  color: #d6394a;
+}
