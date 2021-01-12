@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e491ce4ac9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body id="body">
+    <section class="top-bar-main">
+      <div class="container d-flex justify-content-between py-2">
+        <div
+          class="top-bar-main-col1 d-flex justify-content-md-start justify-content-center"
+        >
+          <span class="top-bar-main-col1-left-span">ZERO CONTACT</span>
+          <span class="top-bar-main-col1-right-span"
+            >&nbsp;Click * Collect</span
+          >
+        </div>
+        <div class="top-bar-main-col2 justify-content-center d-none d-lg-flex">
+          <span class="top-bar-main-col2-left-span">FREE DELIVERY</span>
+          <span class="top-bar-main-col2-right-span"
+            >on orders above 100 AED</span
+          >
+        </div>
+        <div class="top-bar-main-col3 justify-content-end d-none d-md-flex">
+          <div><i class="fas fa-search"></i></div>
+          <div class="px-3"><i class="fas fa-user"></i></div>
+          <div><i class="fas fa-shopping-cart"></i><span>1</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="header-section">
+      <div
+        class="header-section-row1 py-2 container d-flex flex-wrap justify-content-between align-items-center"
+      >
+        <div class="d-flex flex-column align-items-center">
+          <div class="header-section-row1-logoDiv">
+            <img alt="Logo" src="assets/images/Logo.PNG" />
+          </div>
+          <div><p class="m-0">AFRO PETS</p></div>
+        </div>
+        <div
+          class="header-section-row1-nav d-lg-flex align-items-center d-none"
+        >
+          <div class="mr-5 header-section-row1-nav-item-text">
+            <p class="mb-0">Home</p>
+          </div>
+          <div class="mr-5 header-section-row1-nav-item-text">
+            <p class="mb-0">About</p>
+          </div>
+          <div class="mr-5 header-section-row1-nav-item-text">
+            <p class="mb-0">Services</p>
+          </div>
+          <div
+            class="mr-5 header-section-row1-nav-item-button d-flex justify-content-center align-items-center"
+          >
+            <p class="mb-0">Grooming</p>
+          </div>
+          <div
+            class="header-section-row1-nav-item-button d-flex justify-content-center align-items-center"
+          >
+            <p class="mb-0">Shop Now</p>
+          </div>
+        </div>
+        <div
+          class="header-section-row1-toggle d-lg-none align-items-center d-block"
+          id="toggle-button"
+          onclick="openDrawerFunction()"
+        >
+          <i id="toggle-button1" class="fas fa-bars"></i>
+        </div>
+      </div>
+      <div
+        class="header-section-row2 py-2 container d-flex flex-wrap justify-content-between align-items-center"
+      >
+        <div
+          class="header-section-row2-nav d-lg-flex align-items-center d-none"
+        >
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Home</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Dog</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Cat</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Fish</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Bird</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Reptile</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Small Animal</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="mr-5 header-section-row2-nav-item-text d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Brand</p>
+            <i class="fas fa-chevron-down"></i>
+          </div>
+          <div
+            class="header-section-row2-nav-item-textLast d-flex align-items-baseline"
+          >
+            <p class="mb-0 pr-1">Sale</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="how-it-works-section py-5">
+      <div class="container d-flex flex-column align-items-center">
+        <div class="how-it-works-section-main-heading-div">
+          <h1 class="text-center">HOW IT WORKS?</h1>
+        </div>
+        <div class="d-flex flex-wrap py-4">
+          <div class="col-12 col-md-4">
+            <div class="d-flex flex-column align-items-center">
+              <div><div class="how-it-works-section-image"></div></div>
+              <div class="py-4 how-it-works-section-headingDiv text-center">
+                <h2 class="m-0">1. CHOOSE A PACKAGE</h2>
+              </div>
+              <div class="how-it-works-section-paraDiv text-center">
+                <p class="m-0 text-center">
+                  Select one of our highest-selling grooming packages for your
+                  furry friend to pamper them right.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="d-flex flex-column align-items-center">
+              <div><div class="how-it-works-section-image"></div></div>
+              <div class="py-4 how-it-works-section-headingDiv text-center">
+                <h2 class="m-0">2. BOOK A SALON APPOINTMENT</h2>
+              </div>
+              <div class="how-it-works-section-paraDiv text-center">
+                <p class="m-0 text-center">
+                  Schedule an in-store appointment for when it’s most convenient
+                  for you and your companion.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="d-flex flex-column align-items-center">
+              <div><div class="how-it-works-section-image"></div></div>
+              <div class="py-4 how-it-works-section-headingDiv text-center">
+                <h2 class="m-0">3. GET PAMPERED</h2>
+              </div>
+              <div class="how-it-works-section-paraDiv text-center">
+                <p class="m-0 text-center">
+                  Your groomer is on their way to your place to pick them up and
+                  soon enough your partner in crime will have complete
+                  trans-FUR-mation!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="d-block d-lg-none side-drawer" id="side-drawer">
+      <div class="d-none side-drawer-div px-3 py-4" id="side-drawer-div">
+        <div class="side-drawer-title-div d-none" id="side-drawer-title-div">
+          <h3>AFRO PETS</h3>
+        </div>
+        <div class="side-drawer-nav-div d-flex flex-column">
+          <div><p class="header-section-row1-nav-item-text">Home</p></div>
+          <div><p class="header-section-row1-nav-item-text">Home</p></div>
+          <div><p class="header-section-row1-nav-item-text">Home</p></div>
+          <div>
+            <p
+              class="header-section-row1-nav-item-button d-flex justify-content-center align-items-center"
+            >
+              Home
+            </p>
+          </div>
+          <div>
+            <p
+              class="header-section-row1-nav-item-button d-flex justify-content-center align-items-center"
+            >
+              Home
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="close-drawer-button" onclick="closeDrawerFunction()">
+        <i class="fas fa-times"></i>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/script/main.js"></script>
+  </body>
+</html>
