@@ -219,3 +219,59 @@
 .terms-and-conditions-heading-div > h6 {
   color: #d6394a;
 }
+
+.about-our-services-section {
+  background-color: #f2f2f2;
+}
+.about-our-services-section > .container > div {
+  max-width: 80%;
+}
+.about-our-services-section-image-div > div {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 75px;
+}
+.about-our-services-section-content-div {
+  padding-left: 25px;
+}
+.about-our-services-section-content-div > div > h2 {
+  color: #d6394a;
+}
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-left: 15px solid #fff;
+}
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 35px solid transparent;
+  border-bottom: 35px solid transparent;
+  border-right: 15px solid #fff;
+}
+.carousel-title {
+  background-color: #d6394a;
+  height: 70px;
+}
+.carousel-title > div > h2 {
+  color: #fff;
+}
+.owl-nav {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-83.25px) !important;
+  min-width: 110%;
+  display: flex;
+  justify-content: space-between;
+  left: -5%;
+}
+.owl-nav > button {
+  color: #f1b939 !important;
+  font-size: 125px !important;
+}
+.owl-nav > button:focus {
+  outline: none;
+}
