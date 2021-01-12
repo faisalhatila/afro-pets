@@ -39,7 +39,7 @@
     border-bottom: solid 1px #888;
     position: sticky;
     top: 0;
-    z-index: 1;
+    z-index: 100;
   }
 }
 .header-section-row1-logoDiv > img,
