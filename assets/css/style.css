@@ -100,3 +100,77 @@
   right: 15px;
   font-size: 25px;
 }
+.select-pet-attribute-sction-select-grooming-mainDiv {
+  overflow: hidden;
+}
+.select-pet-attribute-sction-select-grooming-mainDiv > div > p {
+  font-size: 22px;
+}
+.select-pet-attribute-sction-select-grooming-mainDiv > div:nth-child(1) {
+  background-color: #3b2819;
+  color: #fff;
+  height: 80px;
+  width: 210px;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.select-pet-attribute-sction-select-grooming-mainDiv > div:nth-child(2) {
+  background-color: #fff;
+  color: #3b2819;
+  height: 80px;
+  width: 210px;
+  border: solid 3px #3b2819;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+.select-pet-attribute-sction-select-partner-pet-heading-div > h2,
+.select-pet-attribute-sction-select-pet-size-heading-div > h2 {
+  color: #d6394a;
+}
+
+.select-pet-attribute-sction-select-partner-pet-main-div > div:nth-child(1) {
+  width: 150px;
+  height: 150px;
+  background: #f1b939;
+  border-radius: 75px;
+  border: solid 3px #f1b939;
+}
+.select-pet-attribute-sction-select-partner-pet-main-div > div:nth-child(2) {
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 75px;
+  border: solid 3px #f1b939;
+}
+.select-pet-attribute-sction-select-pet-size-main-div > div:nth-child(2),
+.select-pet-attribute-sction-select-pet-size-main-div > div:nth-child(3),
+.select-pet-attribute-sction-select-pet-size-main-div > div:nth-child(4),
+.select-pet-attribute-sction-select-pet-size-main-div > div:nth-child(5) {
+  filter: blur(1px);
+}
+.select-pet-attribute-sction-select-pet-size-main-div > div > div > h5 {
+  font-size: 16px;
+}
+.select-pet-size-image-div-0,
+.select-pet-size-image-div-1,
+.select-pet-size-image-div-2,
+.select-pet-size-image-div-3,
+.select-pet-size-image-div-4 {
+  width: 50px;
+  border: solid 2px #f1b939;
+}
+.select-pet-size-image-div-0 {
+  height: 70px;
+}
+.select-pet-size-image-div-1 {
+  height: 90px;
+}
+.select-pet-size-image-div-2 {
+  height: 110px;
+}
+.select-pet-size-image-div-3 {
+  height: 130px;
+}
+.select-pet-size-image-div-4 {
+  height: 150px;
+}
