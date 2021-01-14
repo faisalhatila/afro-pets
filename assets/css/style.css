@@ -194,6 +194,9 @@
 .subscription-features-div:hover {
   border-color: #f1b939;
 }
+.subscription-features-div-heading-div > h2 {
+  font-size: 28px;
+}
 .subscription-check-bone-div {
   color: #f1b939;
 }
@@ -302,7 +305,7 @@
   background-color: #f2f2f2;
 }
 .carousel-testimonial-title {
-  transform: translateY(-83px);
+  transform: translateY(-82px);
   background-color: #d6394a;
   height: 70px;
 }
@@ -335,12 +338,33 @@
   border-right: solid 14.5px #f2f2f2;
   height: 0;
   width: 0;
-  transform: rotateX(180deg) translate(-1px, 0px);
+  transform: rotateX(180deg) translate(0px, 0px);
 }
 #testimonial-owl > .owl-nav {
   display: none !important;
 }
-
+/* #testimonial-owl > .owl-dots >.owl-dot {
+  background-color: #f1b939;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+} */
+#testimonial-owl > .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+#testimonial-owl > .owl-dots > .owl-dot {
+  background-color: #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+#testimonial-owl > .owl-dots > .active {
+  background-color: #f1b939 !important;
+}
 .news-letter-section {
   background-color: #3b2819;
 }
